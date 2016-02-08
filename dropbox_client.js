@@ -28,7 +28,7 @@ DropboxOAuth.requestCredential = function (options, callback) {
         '&client_id=' + config.clientId +
         '&redirect_uri=' + OAuth._redirectUri('dropbox', config, {}, {secure: true}) +
         '&state=' + OAuth._stateParam(loginStyle, credentialToken);
-  loginUrl = loginUrl.replace('?close&', '?close=true&');
+  loginUrl = loginUrl.replace('?close', '?close=true');
 
   OAuth.launchLogin({
     loginService: "dropbox",
