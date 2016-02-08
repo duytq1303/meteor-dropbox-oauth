@@ -1,8 +1,8 @@
 Package.describe({
-    name: 'gcampax:dropbox-oauth',
+    name: 'nitrolabs:dropbox-oauth',
     summary: "Login service for dropbox accounts",
-    version: '1.0.1',
-    git: 'https://github.com/gcampax/meteor-dropbox-oauth'
+    version: '1.2.0',
+    git: 'https://github.com/NitroLabs/meteor-dropbox-oauth'
 });
 
 Package.onUse(function(api) {
@@ -15,7 +15,8 @@ Package.onUse(function(api) {
 
     api.export('DropboxOAuth');
 
-    api.addFiles(['dropbox_configure.html', 'dropbox_configure.js'], 'client');
-    api.addFiles('dropbox_server.js', 'server');
-    api.addFiles('dropbox_client.js', 'client');
+    api.addFiles('html/dropbox_configure.html', 'client');
+    api.addFiles('dropbox_configure.js', 'client');
+    api.addFiles('lib/dropbox_server.js', 'server');
+    api.addFiles('lib/dropbox_client.js', 'client');
 });
