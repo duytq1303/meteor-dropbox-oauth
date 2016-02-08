@@ -16,7 +16,7 @@ Package.onUse(function(api) {
     api.export('DropboxOAuth');
 
     api.addFiles('html/dropbox_configure.html', 'client');
-    api.addFiles('dropbox_configure.js', 'client');
+    api.addFiles('lib/dropbox_configure.js', 'client');
     api.addFiles('lib/dropbox_server.js', 'server');
     api.addFiles('lib/dropbox_client.js', 'client');
 });
