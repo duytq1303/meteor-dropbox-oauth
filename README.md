@@ -12,7 +12,7 @@ from `accounts-dropbox`.
 
 ## Credits
 
-Written by @gcampax and @haotangdsv
+Written by @gcampax and @haotangdsv<br>
 Maintained by [Nitrolabs](http://www.nitrolabs.com)
 
 ## License
