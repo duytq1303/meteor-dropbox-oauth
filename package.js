@@ -1,8 +1,8 @@
 Package.describe({
     name: 'nitrolabs:dropbox-oauth',
     summary: "Login service for dropbox accounts",
-    version: '1.3.0',
-    git: 'https://github.com/NitroLabs/meteor-dropbox-oauth'
+    version: '1.4.0',
+    git: 'https://github.com/Nitrolabs/meteor-dropbox-oauth'
 });
 
 Package.onUse(function(api) {
